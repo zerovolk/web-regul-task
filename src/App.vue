@@ -1,30 +1,38 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+<div>
+  <MenuHeader/>
+  <ListAndMap></ListAndMap>
+</div>
 </template>
 
+<script>
+import MenuHeader from "@/components/MenuHeader";
+import ListAndMap from "@/components/ListAndMap";
+
+export default {
+  components: {
+    MenuHeader,
+    ListAndMap
+  }
+}
+</script>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
 
-nav {
-  padding: 30px;
-}
+  * {
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+    /*font-size: 16px;*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
+  body, html {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 100%;
+  }
 
-nav a.router-link-exact-active {
-  color: #42b983;
-}
+
 </style>
