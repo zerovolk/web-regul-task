@@ -8,7 +8,7 @@
         <div class="header__filter">
           <div class="header__search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
           <div class="header__chooser">
-            <p>Ростов-на-дону</p>
+            <p>Сочи</p>
             <span class="header__divider"></span>
             <p>26.04-01.05</p>
             <span class="header__divider"></span>
