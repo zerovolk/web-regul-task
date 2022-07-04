@@ -2,17 +2,20 @@
 <div>
   <MenuHeader/>
   <ListAndMap></ListAndMap>
+  <MainFooter/>
 </div>
 </template>
 
 <script>
 import MenuHeader from "@/components/MenuHeader";
 import ListAndMap from "@/components/ListAndMap";
+import MainFooter from "@/components/MainFooter";
 
 export default {
   components: {
+    MainFooter,
     MenuHeader,
-    ListAndMap
+    ListAndMap,
   }
 }
 </script>
