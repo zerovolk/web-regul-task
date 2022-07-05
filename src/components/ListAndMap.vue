@@ -26,23 +26,19 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
   .main {
     height: 100%;
     display: flex;
 
-  }
   .list-apartment {
     width: 40%;
     height: 90%;
     background: #cfcfcf;
-  }
+    }
 
   .yandex-map {
-    /*background: #33BDB5;*/
     width: 60%;
+    }
   }
-
-
-
 </style>
