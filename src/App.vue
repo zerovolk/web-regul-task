@@ -20,11 +20,9 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
   * {
-    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
-    /*font-size: 16px;*/
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -36,6 +34,4 @@ export default {
     font-weight: 400;
     height: 100%;
   }
-
-
 </style>

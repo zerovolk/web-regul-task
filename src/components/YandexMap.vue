@@ -29,7 +29,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .l-map {
   width: 100%;
   height: 100%;

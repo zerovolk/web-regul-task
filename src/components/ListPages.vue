@@ -20,43 +20,45 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .list-apartment__page-list {
   margin: 5% 20px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-}
 
-.list-apartment__pages {
-  list-style: none;
-}
+  .list-apartment__arrowL,
+  .list-apartment__arrowR {
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    line-height: 36px;
+    cursor: pointer;
+    transition: background 400ms ease;
 
-.list-apartment__page {
-  display: inline-block;
-  width: 34px;
-  height: 34px;
-  line-height: 34px;
-  border-radius: 50%;
-  margin: 0 4px;
-  cursor: pointer;
-  transition: background 400ms ease;
-}
+    &:hover {
+      background: #33BDB5;
+    }
+  }
 
-.list-apartment__page:hover,
-.list-apartment__arrowL:hover,
-.list-apartment__arrowR:hover{
-  background: #33BDB5;
-}
+  .list-apartment__pages {
+    list-style: none;
 
-.list-apartment__arrowL,
-.list-apartment__arrowR {
-  border-radius: 50%;
-  width: 34px;
-  height: 34px;
-  line-height: 36px;
-  cursor: pointer;
-  transition: background 400ms ease;
+    .list-apartment__page {
+      display: inline-block;
+      width: 34px;
+      height: 34px;
+      line-height: 34px;
+      border-radius: 50%;
+      margin: 0 4px;
+      cursor: pointer;
+      transition: background 400ms ease;
+
+      &:hover {
+        background: #33BDB5;
+      }
+    }
+  }
 }
 </style>
