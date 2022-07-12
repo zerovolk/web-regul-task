@@ -1,15 +1,15 @@
 <template>
 <div>
   <MenuHeader/>
-  <ListAndMap></ListAndMap>
+  <ListAndMap/>
   <MainFooter/>
 </div>
 </template>
 
 <script>
-import MenuHeader from "@/components/MenuHeader";
-import ListAndMap from "@/components/ListAndMap";
-import MainFooter from "@/components/MainFooter";
+import MenuHeader from "@/components/layouts/includes/MenuHeader";
+import ListAndMap from "@/components/views/ListAndMap";
+import MainFooter from "@/components/layouts/includes/MainFooter";
 
 export default {
   components: {

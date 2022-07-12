@@ -1,6 +1,6 @@
 <template>
   <div class="list-apartment__block">
-    <img alt="png" src="../assets/card1.png" class="list-apartment__image">
+    <img alt="png" src="../../assets/card1.png" class="list-apartment__image">
     <div class="list-apartment__info">
       <div class="list-apartment__preheader">
         <p>Квартира</p>
@@ -44,7 +44,7 @@
     </div>
   </div>
   <div class="list-apartment__block">
-    <img alt="png" class="list-apartment__image" src="../assets/card2.png">
+    <img alt="png" class="list-apartment__image" src="../../assets/card2.png">
     <div class="list-apartment__info">
       <div class="list-apartment__preheader">
         <p>Квартира</p>
@@ -87,7 +87,7 @@
     </div>
   </div>
   <div class="list-apartment__block">
-    <img alt="png" class="list-apartment__image" src="../assets/card3.png">
+    <img alt="png" class="list-apartment__image" src="../../assets/card3.png">
     <div class="list-apartment__info">
       <div class="list-apartment__preheader">
         <p>Квартира</p>
@@ -130,7 +130,7 @@
     </div>
   </div>
   <div class="list-apartment__block">
-    <img alt="png" class="list-apartment__image" src="../assets/card4.png">
+    <img alt="png" class="list-apartment__image" src="../../assets/card4.png">
     <div class="list-apartment__info">
       <div class="list-apartment__preheader">
         <p>Квартира</p>

@@ -11,9 +11,9 @@
 </template>
 
 <script>
-import ListItem from "@/components/ListItem";
-import ListPages from "@/components/ListPages";
-import YandexMap from "@/components/YandexMap";
+import ListItem from "@/components/cards/ListItem";
+import ListPages from "@/components/layouts/ListPages";
+import YandexMap from "@/components/maps/YandexMap";
 
 export default {
   components: {
